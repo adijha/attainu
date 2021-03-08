@@ -72,7 +72,6 @@ const Table = ({
 		userorNot && foodorNot && consumeFood(x, y);
 		return (
       <td className="cell">
-        {x+''+y}
 				{userorNot && "🐹"}
 				{foodorNot && "🌿"}
 			</td>

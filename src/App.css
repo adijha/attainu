@@ -1,0 +1,19 @@
+.container {
+	/* text-align: center; */
+}
+table {
+	margin-top: 50px;
+}
+.cell {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #ddd;
+	cursor: pointer;
+	text-align: center;
+}
+.food {
+	border-bottom: 15px solid lightblue;
+}
+.user {
+	border-top: 15px solid hotpink;
+}

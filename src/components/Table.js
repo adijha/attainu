@@ -86,13 +86,7 @@ const Table = ({
 		rows.push(<tr>{cells}</tr>)
 	}
 	return (
-		<div
-			style={{
-				display: 'flex',
-				justifyContent: 'center',
-				alignItems: 'center',
-			}}
-		>
+		<div className="table-wrapper">
 			<table>{rows}</table>
 		</div>
 	)
